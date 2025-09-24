@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title CSCE 190: Robert Baily>
-		<link rel="stylesheet" href="styles.css">
+		<link> rel="stylesheet" href="styles.css"</link>
 	</head>
 	<body>
 		<h1>Ranger Klauk</h1>
