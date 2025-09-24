@@ -1,5 +1,6 @@
 body {
     background: salmon;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,3 +12,4 @@ h1 {
 .about{
     background: salmon;
 }
+
