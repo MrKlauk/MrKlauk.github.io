@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title CSCE 190: Robert Baily>
+		<title> CSCE 190: Robert Baily</title>
 		<link> rel="stylesheet" href="styles.css"</link>
 	</head>
 	<body>
