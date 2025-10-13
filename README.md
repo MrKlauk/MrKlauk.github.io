@@ -16,8 +16,8 @@
 		</div>
 		<!-- Problem Statement Assignment -->
 		<section class="project">
-		<a href="files/statement.pdf"><h3>Problem Statement</h3></a>
-		<a href="files/statement.pdf"><img src="images/problem.png"></a>
+		<a href="gitFiles/statement.pdf"><h3>Problem Statement</h3></a>
+		<a href="gitFiles/statement.pdf"><img src="images/problem.png"></a>
 		<p>Skateboarders in Columbia, SC need an updated map of local skate spots to avoid wasting time searching for viable locations.</p>
 		</section>
 		</div>
@@ -25,13 +25,5 @@
 		<div class="contact">
 			<h2>Contact me</h2>
 		</div>
-		<!-- lala -->
-		<div class = "projects">
-			<section class="project">
-			<a href="files/statement.pdf"><h3>Problem Statement</h3></a>
-			<a href="files/statement.pdf"><img src="images/problem.png"></a>
-			<p>One sentence to describe your problem</p>
-			</section>
-			</div>
 	</body>
 </html>
