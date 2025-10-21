@@ -20,6 +20,14 @@
 		<a href="gitFiles/statement.pdf"><img src="images/problem.png"></a>
 		<p>Skateboarders in Columbia, SC need an updated map of local skate spots to avoid wasting time searching for viable locations.</p>
 		</section>
+		<!--Affinity Diagram Assignment -->
+		<section class="project">
+		<a href="gitFiles/affinityDiagram.pdf"><h3>Affinity Diagram</h3></a>
+		<a href="gitFiles/affinityDiagram.pdf"><img src="images/affinityDiagram.png"></a>
+		<p>
+		Above is an affinity diagram showcasing ideas
+		</p>
+		</section>
 		</div>
 		<!-- lala -->
 		<div class="contact">
