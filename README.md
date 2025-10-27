@@ -29,6 +29,14 @@
 		</p>
 		</section>
 		</div>
+		<!--Sketches Assignment-->
+		<section class="project">
+		<a href="gitFiles/ColaSkateSpots Full Sketch.pdf"><h3>Sketches</h3></a>
+		<a href="gitFiles/ColaSkateSpots Full Sketch.pdf"><img src="ColaSkateSpots Home/Sketches_IMG.png"></a>
+		<p>
+		This is a layout of my website to be created, with dedicated home, search, and spot pages with information regarding each
+		</p>
+		</section>
 		<!-- lala -->
 		<div class="contact">
 			<h2>Contact me</h2>
