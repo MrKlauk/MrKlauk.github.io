@@ -32,7 +32,7 @@
 		<!--Sketches Assignment-->
 		<section class="project">
 		<a href="gitFiles/ColaSkateSpots Full Sketch.pdf"><h3>Sketches</h3></a>
-		<a href="gitFiles/ColaSkateSpots Full Sketch.pdf"><img src="ColaSkateSpots Home/Sketches_IMG.png"></a>
+		<a href="gitFiles/ColaSkateSpots Full Sketch.pdf"><img src="images/ColaSkateSpots Home.jpg"></a>
 		<p>
 		This is a layout of my website to be created, with dedicated home, search, and spot pages with information regarding each
 		</p>
