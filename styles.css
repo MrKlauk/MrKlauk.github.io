@@ -49,6 +49,7 @@ margin: 15px;
 			}
 			.resume-section {
 				margin-bottom: 25px;
+				color: white;
 			}
 			.resume-section h2 {
 				border-bottom: 2px solid #333;
@@ -111,3 +112,4 @@ margin: 15px;
 				height: auto;
 			}
 		</style>
+
