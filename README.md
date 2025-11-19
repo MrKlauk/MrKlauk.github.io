@@ -14,7 +14,7 @@
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="resume.html">Resume</a>
-                <a href="resume.pdf" target="gitFiles/resume.pdf">Resume PDF</a>
+                <a href="gitFiles/resume.pdf" target="_blank">Resume PDF</a>
             </div>
         </div>
     </nav>
