@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,106 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Ranger Klauk</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="resume.pdf" target="_blank">Resume PDF</a>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <header>
             <h1>RANGER KLAUK</h1>
             <p>Computer Science Student | Future Software Developer</p>
             <div class="contact-info">
                 <span><i class="fas fa-envelope"></i> rangerklauk@gmail.com</span>
-                <span><i class="fas fa-phone"></i> (803) 463-1723</span>
+                <span><i class="fas fa-phone"></i> (803) 463-1725</span>
                 <span><i class="fas fa-map-marker-alt"></i> Chapin, SC 29036</span>
             </div>
         </header>
-        <div class="resume">
-            <div class="resume-section">
-                <h2><i class="fas fa-graduation-cap"></i> EDUCATION</h2>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div class="item-title">University of South Carolina, Columbia, SC</div>
-                    </div>
-                    <div class="item-details">
-                        Bachelor of Science in Computer Science<br>
-                        Expected Graduation: 2028
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div class="item-title">Spring Hill High School, Chapin, SC</div>
-                        <div class="item-date">May 2024</div>
-                    </div>
-                    <div class="item-details">
-                        High School Diploma<br>
-                        Honor Cord, Center for Advanced Technical Studies
-                    </div>
-                </div>
-            </div>
-            <div class="resume-section">
-                <h2><i class="fas fa-code"></i> TECHNICAL SKILLS</h2>
-                <div class="skills-list">
-                    <span class="skill-item">Python</span>
-                    <span class="skill-item">Data Analysis</span>
-                    <span class="skill-item">Technical Research</span>
-                    <span class="skill-item">Project Design</span>
-                    <span class="skill-item">Microsoft Office</span>
-                    <span class="skill-item">Troubleshooting</span>
-                    <span class="skill-item">Systems Testing</span>
-                    <span class="skill-item">Customer Service</span>
-                </div>
-            </div>
-            <div class="resume-section">
-                <h2><i class="fas fa-briefcase"></i> EXPERIENCE</h2>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Publix, Chapin, SC - Cashier/Bagger</div>
-                        <div class="item-date">2020 - 2024</div>
-                    </div>
-                    <div class="item-details">
-                        <ul>
-                            <li>Processed high volume of transactions accurately using multiple payment systems</li>
-                            <li>Resolved customer inquiries efficiently; trained and coordinated with team members</li>
-                            <li>Recognized for outstanding performance with consistent salary increases</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Chick-fil-A, Ballentine, SC - Cashier/Runner</div>
-                        <div class="item-date">Summer 2020</div>
-                    </div>
-                    <div class="item-details">
-                        <ul>
-                            <li>Operated effectively in high-pressure environment; adapted to rapidly changing COVID-19 protocols</li>
-                            <li>Demonstrated strong interpersonal skills when interacting with diverse customers</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="resume-section">
-                <h2><i class="fas fa-flask"></i> TECHNICAL PROJECTS</h2>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Biomechanical Research Project</div>
-                        <div class="item-date">Fall 2023</div>
-                    </div>
-                    <div class="item-details">
-                        <ul>
-                            <li>Awarded competitive grant to fund and develop an independent accessibility research project</li>
-                            <li>Designed and engineered a prototype device; systematically tested functionality</li>
-                            <li>Presented research findings and methodology at a district-level science fair</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Biomedical Program</div>
-                        <div class="item-date">2021-2023</div>
-                    </div>
-                    <div class="item-details">
-                        <ul>
-                            <li>Executed self-paced research study, strengthening project management and analytical skills</li>
-                            <li>Analyzed complex medical data; utilized technical equipment and software for data collection</li>
-                        </ul>
-                    </div>
+        <div class="resume-preview">
+            <div class="preview-content">
+                <h2><i class="fas fa-file-alt"></i> My Resume</h2>
+                <p>View my complete professional background, education, skills, and experience.</p>
+                <div class="preview-buttons">
+                    <a href="resume.html" class="preview-btn primary">
+                        <i class="fas fa-eye"></i> View Online Resume
+                    </a>
+                    <a href="resume.pdf" class="preview-btn secondary" target="_blank">
+                        <i class="fas fa-download"></i> Download PDF Resume
+                    </a>
                 </div>
             </div>
         </div>
@@ -126,7 +58,7 @@
             </section>
             <section class="project">
                 <a href="gitFiles/affinityDiagram.pdf">
-                    <img src="affinityDiagram.png" alt="Affinity Diagram">
+                    <img src="images/affinityDiagram.png" alt="Affinity Diagram">
                     <div class="project-content">
                         <h3>Affinity Diagram</h3>
                         <p>Above is an affinity diagram showcasing ideas for improving the skateboarding experience in Columbia.</p>
@@ -160,3 +92,5 @@
     </div>
 </body>
 </html>
+
+<!--Deepseek helped create some of this code>
