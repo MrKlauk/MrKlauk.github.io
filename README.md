@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCE 190: Ranger Klauk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
     <div class="container">
         <header>
@@ -5,7 +14,7 @@
             <p>Computer Science Student | Future Software Developer</p>
             <div class="contact-info">
                 <span><i class="fas fa-envelope"></i> rangerklauk@gmail.com</span>
-                <span><i class="fas fa-phone"></i> (803) 463-1725</span>
+                <span><i class="fas fa-phone"></i> (803) 463-1723</span>
                 <span><i class="fas fa-map-marker-alt"></i> Chapin, SC 29036</span>
             </div>
         </header>
@@ -144,9 +153,6 @@
                 <a href="tel:8034631725" class="contact-btn">
                     <i class="fas fa-phone"></i> Call
                 </a>
-                <a href="#" class="contact-btn">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
             </div>
         </div>
         <footer>
@@ -155,5 +161,3 @@
     </div>
 </body>
 </html>
-
-<!-- DeepSeek helped create some of this code >
