@@ -118,7 +118,7 @@
         <div class="projects-container">
             <section class="project">
                 <a href="gitFiles/statement.pdf">
-                    <img src="https://via.placeholder.com/400x200/3498db/ffffff?text=Problem+Statement" alt="Problem Statement">
+                    <img src="images/problem.png" alt="Problem Statement">
                     <div class="project-content">
                         <h3>Problem Statement</h3>
                         <p>Skateboarders in Columbia, SC need an updated map of local skate spots to avoid wasting time searching for viable locations.</p>
@@ -127,7 +127,7 @@
             </section>
             <section class="project">
                 <a href="gitFiles/affinityDiagram.pdf">
-                    <img src="https://via.placeholder.com/400x200/2c3e50/ffffff?text=Affinity+Diagram" alt="Affinity Diagram">
+                    <img src="affinityDiagram.png" alt="Affinity Diagram">
                     <div class="project-content">
                         <h3>Affinity Diagram</h3>
                         <p>Above is an affinity diagram showcasing ideas for improving the skateboarding experience in Columbia.</p>
@@ -136,7 +136,7 @@
             </section>
             <section class="project">
                 <a href="gitFiles/ColaSkateSpots Full Sketch.pdf">
-                    <img src="https://via.placeholder.com/400x200/e74c3c/ffffff?text=Website+Sketches" alt="Sketches">
+                    <img src="images/ColaSkateSpots Home.png" alt="Sketches">
                     <div class="project-content">
                         <h3>Sketches</h3>
                         <p>This is a layout of my website to be created, with dedicated home, search, and spot pages with information.</p>
