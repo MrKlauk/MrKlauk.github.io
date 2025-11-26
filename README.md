@@ -35,9 +35,6 @@
                     <a href="resume.html" class="preview-btn primary">
                         <i class="fas fa-eye"></i> View Online Resume
                     </a>
-                    <a href="resume.pdf" class="preview-btn secondary" target="_blank">
-                        <i class="fas fa-download"></i> Download PDF Resume
-                    </a>
                 </div>
             </div>
         </div>
@@ -46,8 +43,6 @@
             <p>"To leave any person happier than they were before my impact on them, socially or professionally."</p>
         </div>
         <!-- Skills Section -->
-        <div class="skills">
-            <h2>Skills</h2>
             <div class="resume-links">
                 <a href="resume.html" class="skill-btn">Online Resume</a>
                 <a href="gitFiles/resume.pdf" class="skill-btn" target="_blank">PDF Resume</a>
@@ -75,7 +70,7 @@
             </section>
             <section class="project">
                 <a href="https://github.com/MrKlauk/CSCE190-Projects">
-                    <h3>CSCE 206 Projects</h3>
+                    <h3>CSCE 190 Projects</h3>
                 </a>
                 <a href="https://github.com/MrKlauk/CSCE190-Projects">
                     <img src="images/code-projects.jpg" alt="C Programming Projects">
