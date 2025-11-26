@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSCE 190: Ranger Klauk</title>
+    <title>Ranger Klauk</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -44,6 +44,44 @@
         <div class="about">
             <h2>About Me</h2>
             <p>"To leave any person happier than they were before my impact on them, socially or professionally."</p>
+        </div>
+        <!-- Skills Section -->
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="resume-links">
+                <a href="resume.html" class="skill-btn">Online Resume</a>
+                <a href="gitFiles/resume.pdf" class="skill-btn" target="_blank">PDF Resume</a>
+            </div>
+            <div class="skills-list">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Programming: C, Java, Python</li>
+                    <li>Web Development: HTML, CSS</li>
+                    <li>Tools: Git, GitHub</li>
+                </ul>
+            </div>
+        </div>
+        <!-- GitHub Repositories Section -->
+        <div class="projects-container">
+            <h2>GitHub Repositories</h2>
+            <section class="project">
+                <a href="https://github.com/YOURUSERNAME/CSCE190-SkateSpotFinder">
+                    <h3>SkateSpot Finder App</h3>
+                </a>
+                <a href="https://github.com/YOURUSERNAME/CSCE190-SkateSpotFinder">
+                    <img src="images/skate-app.jpg" alt="SkateSpot Finder">
+                </a>
+                <p>Columbia skate spot mapping application.</p>
+            </section>
+            <section class="project">
+                <a href="https://github.com/YOURUSERNAME/CSCE206-Projects">
+                    <h3>CSCE 206 Projects</h3>
+                </a>
+                <a href="https://github.com/YOURUSERNAME/CSCE206-Projects">
+                    <img src="images/code-projects.jpg" alt="C Programming Projects">
+                </a>
+                <p>C programming projects and assignments.</p>
+            </section>
         </div>
         <div class="projects-container">
             <section class="project">
