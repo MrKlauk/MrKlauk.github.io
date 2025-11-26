@@ -74,10 +74,10 @@
                 <p>Columbia skate spot mapping application.</p>
             </section>
             <section class="project">
-                <a href="https://github.com/MrKlauk/CSCE206-Projects">
+                <a href="https://github.com/MrKlauk/CSCE190-Projects">
                     <h3>CSCE 206 Projects</h3>
                 </a>
-                <a href="https://github.com/MrKlauk/CSCE206-Projects">
+                <a href="https://github.com/MrKlauk/CSCE190-Projects">
                     <img src="images/code-projects.jpg" alt="C Programming Projects">
                 </a>
                 <p>C programming projects and assignments.</p>
