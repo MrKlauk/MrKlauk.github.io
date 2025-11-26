@@ -65,19 +65,19 @@
         <div class="projects-container">
             <h2>GitHub Repositories</h2>
             <section class="project">
-                <a href="https://github.com/YOURUSERNAME/CSCE190-SkateSpotFinder">
+                <a href="https://github.com/MrKlauk/CSCE190-SkateSpotFinder">
                     <h3>SkateSpot Finder App</h3>
                 </a>
-                <a href="https://github.com/YOURUSERNAME/CSCE190-SkateSpotFinder">
+                <a href="https://github.com/MrKlauk/CSCE190-SkateSpotFinder">
                     <img src="images/skate-app.jpg" alt="SkateSpot Finder">
                 </a>
                 <p>Columbia skate spot mapping application.</p>
             </section>
             <section class="project">
-                <a href="https://github.com/YOURUSERNAME/CSCE206-Projects">
+                <a href="https://github.com/MrKlauk/CSCE206-Projects">
                     <h3>CSCE 206 Projects</h3>
                 </a>
-                <a href="https://github.com/YOURUSERNAME/CSCE206-Projects">
+                <a href="https://github.com/MrKlauk/CSCE206-Projects">
                     <img src="images/code-projects.jpg" alt="C Programming Projects">
                 </a>
                 <p>C programming projects and assignments.</p>
