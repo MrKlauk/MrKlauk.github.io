@@ -113,7 +113,7 @@
                 <a href="mailto:rangerklauk@gmail.com" class="contact-btn">
                     <i class="fas fa-envelope"></i> Email
                 </a>
-                <a href="tel:8034631725" class="contact-btn">
+                <a href="tel:8034631723" class="contact-btn">
                     <i class="fas fa-phone"></i> Call
                 </a>
             </div>
@@ -121,7 +121,6 @@
         <footer>
             <p>&copy; 2024 Ranger Klauk | CSCE 190 Portfolio</p>
         </footer>
-    </div>
 </body>
 </html>
 
