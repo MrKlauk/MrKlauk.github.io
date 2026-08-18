@@ -23,7 +23,7 @@
             <p>Computer Science Student | Future Software Developer</p>
             <div class="contact-info">
                 <span><i class="fas fa-envelope"></i> rangerklauk@gmail.com</span>
-                <span><i class="fas fa-phone"></i> (803) 463-1725</span>
+                <span><i class="fas fa-phone"></i> (803) 463-1723</span>
                 <span><i class="fas fa-map-marker-alt"></i> Chapin, SC 29036</span>
             </div>
         </header>
