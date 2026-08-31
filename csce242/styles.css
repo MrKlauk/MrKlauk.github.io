@@ -20,21 +20,72 @@ header, main, footer {
 header, footer {
     background: #73000A;
     color: white;
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
 }
 
 main {
 
 }
 
-table {
-    border-width: 5px;
-    padding: 5px;
+/* Mobile: vertical stacking (default) */
+#assignments.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 20px;
 }
+
+#assignments section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    max-width: 100%;
+}
+
 /* Navigation */
 
-
-
-/* Tyopgraphy */
+/* Typography */
 h1 {
     color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0;
+}
+
+/* Dynamic Display */
+
+/* 1000px or larger */
+@media (min-width: 1000px) {
+    .columns {
+        display: flex;
+    }
+    
+    #assignments.columns {
+        display: flex;
+        flex-direction: row;     /* Horizontal on desktop */
+        gap: 20px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        align-items: flex-start; /* Align items to top */
+    }
+    
+    #assignments section {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        flex: 1 1 200px;         /* Consistent sizing */
+        max-width: 390px;        /* Max width */
+    }
 }
