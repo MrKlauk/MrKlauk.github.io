@@ -31,7 +31,6 @@ main {
 
 }
 
-/* Mobile: vertical stacking (default) */
 #assignments.columns {
     display: flex;
     flex-direction: column;

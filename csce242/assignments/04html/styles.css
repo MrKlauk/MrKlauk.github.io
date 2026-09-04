@@ -1,0 +1,38 @@
+
+
+
+
+
+
+#footer-links-title {
+    background: blue;
+}
+
+#footer-links {
+    background: maroon;
+    color: white;
+}
+
+#footer-links a {
+
+}
+
+
+/* Dynamic Display */
+@media (min-width: 1000px) {
+    #content {
+        width: 80%;
+        margin: atuo;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    #main-nav li {
+        flex: 1;
+    }
+
+
+
+}
