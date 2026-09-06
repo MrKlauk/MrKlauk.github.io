@@ -17,6 +17,10 @@ header, main, footer {
     padding: 5px;
 }
 
+h4 {
+    color: white;
+}
+
 header, footer {
     background: #73000A;
     color: white;
