@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 8</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h1>Assignment 8</h1>
+                <h2>If Statements</h2>
+            </header>
+
+            <nav id="main-nav">
+                <span id="menu-toggle">&#9660;</span>
+                <ul id="nav-list">
+                    <li id="ex1-link">Exercise 1</li>
+                    <li id="ex2-link">Exercise 2</li>
+                </ul>
+            </nav>
+
+            <main>
+                <section id="exercise1" class="exercise-section active">
+                    <h2>Missing Class Point Deductions</h2>
+                    <h3>How many days do you intend to miss class?</h3>
+                    <input type="number" id="days-missed" value="0" min="0" max="25" />
+                    <h3 id="deduction-line">You will lose 0% for skipping 0 days.</h3>
+                    <h3 id="deduction-message">This is not an online class, you are missing valuable learning opportunities.</h3>
+                </section>
+
+                <section id="exercise2" class="exercise-section">
+                    <h2>End of Semester Counter</h2>
+                    <h3 id="days-left-line">You have 0 days left in the semester.</h3>
+                    <h3 id="countdown-message">Not time to start counting down yet.</h3>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; MrKlauk</p>
+            </footer>
+        </div>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>

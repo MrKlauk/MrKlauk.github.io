@@ -1,0 +1,148 @@
+/* Structural */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 1);
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.75));
+    padding-bottom: 20px;
+}
+
+header, main, footer {
+    padding: 5px;
+}
+
+header, footer {
+    background: #73000A;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+/* Navigation */
+#main-nav {
+    background-color: #4a0a0a;
+    padding: 10px 0;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-list li {
+    color: #ffd9b3;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#nav-list li:not(:last-child)::after {
+    content: "  |";
+    color: #b97c7c;
+    margin-left: 12px;
+    pointer-events: none;
+}
+
+/* Exercises */
+.exercise-section {
+    display: none;
+    background-color: #fcf8f8;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.exercise-section.active {
+    display: block;
+}
+
+.exercise-section h2 {
+    text-align: center;
+    color: #73000A;
+    margin-bottom: 20px;
+}
+
+.exercise-section h3 {
+    color: #4a0a0a;
+    margin: 15px 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 120px;
+    font-size: 1.1rem;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Typography */
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Mobile Menu */
+@media (max-width: 700px) {
+    #menu-toggle {
+        display: block;
+        color: white;
+        padding: 8px 20px;
+        cursor: pointer;
+    }
+
+    #menu-toggle.open {
+        color: transparent;
+    }
+
+    #menu-toggle.open::after {
+        content: "\25B2";
+        color: white;
+    }
+
+    #nav-list {
+        display: none;
+        flex-direction: column;
+        padding: 6px 0;
+    }
+
+    #nav-list.open {
+        display: flex;
+    }
+
+    #nav-list li {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #nav-list li:not(:last-child)::after {
+        content: "";
+        margin: 0;
+    }
+}
