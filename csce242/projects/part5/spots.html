@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skate Columbia - Spots</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <div id="logo">
+                    <div class="logo-line"><span class="gold">S</span>KATE</div>
+                    <div class="logo-line"><span class="gold">C</span>OLUMBIA</div>
+                </div>
+                <nav id="main-nav">
+                    <span id="menu-toggle">&#9660;</span>
+                    <ul id="nav-list">
+                        <li id="home-link"><a href="index.html">Home</a></li>
+                        <li id="spots-link" class="active"><a href="spots.html">Spots</a></li>
+                        <li id="shops-link"><a href="shops.html">Shops</a></li>
+                        <li id="tricks-link"><a href="tricks.html">Tricks</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="page-hero">
+                    <h1>Skate Spots</h1>
+                    <p>A curated list of the best spots in Columbia, SC.</p>
+                </section>
+                <section id="card-page">
+                    <div id="filters">
+                        <button class="filter active">All</button>
+                        <button class="filter">Park</button>
+                        <button class="filter">Street</button>
+                    </div>
+                    <div id="card-grid">
+                        <a href="spot.html" class="card">
+                            <img src="images/owens-field2.jpg" alt="Owens Field" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Owens Field</h3>
+                                    <span class="tag red">Park</span>
+                                </div>
+                                <span class="tag orange">Advanced</span>
+                                <p>Large concrete park with bowls, ledges, and a street section. Well-maintained and popular with locals.</p>
+                                <span class="address">📍 1351 Jim Hamilton Blvd, Columbia, SC 29205</span>
+                            </div>
+                        </a>
+                        <a href="spot.html" class="card">
+                            <img src="images/irmo-skate-park.jpg" alt="Irmo Skate Park" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Irmo Skate Park</h3>
+                                    <span class="tag green">Park</span>
+                                </div>
+                                <span class="tag orange">Intermediate</span>
+                                <p>Concrete park in Rawls Creek with a flow bowl, quarter pipes, and street features. Hosts Nike SB events.</p>
+                                <span class="address">📍 1113 Friarsgate Blvd, Irmo, SC 29063</span>
+                            </div>
+                        </a>
+                        <a href="spot.html" class="card">
+                            <img src="images/russell.jpg" alt="Russell House" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Russell House</h3>
+                                    <span class="tag green">Street</span>
+                                </div>
+                                <span class="tag orange">Intermediate</span>
+                                <p>Long marble banks alongside the university buildings. Great for carving and manual lines.</p>
+                                <span class="address">📍 Greene St, Columbia, SC</span>
+                            </div>
+                        </a>
+                        <a href="spot.html" class="card">
+                            <img src="images/close-hipp.jpg" alt="Close Hipp" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Close Hipp</h3>
+                                    <span class="tag green">Street</span>
+                                </div>
+                                <span class="tag green">Beginner</span>
+                                <p>Smoothest concrete in the city in the underground parking lot. Lots of manual pads.</p>
+                                <span class="address">📍 Harden St &amp; Devine St, Columbia, SC</span>
+                            </div>
+                        </a>
+                        <a href="spot.html" class="card">
+                            <img src="images/t-coop.jpg" alt="T-Coop Fountain" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>T-Coop Fountain</h3>
+                                    <span class="tag green">Street</span>
+                                </div>
+                                <span class="tag red">Advanced</span>
+                                <p>Massive 8-stair gap with rough landing. Not for the faint of heart.</p>
+                                <span class="address">📍 Bull St, Columbia, SC</span>
+                            </div>
+                        </a>
+                        <a href="spot.html" class="card">
+                            <img src="images/gambrell.jpg" alt="Gambrell" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Gambrell</h3>
+                                    <span class="tag green">Street</span>
+                                </div>
+                                <span class="tag green">All Levels</span>
+                                <p>Large variety of stair sets, large area of flatground.</p>
+                                <span class="address">📍 5765 Bush River Rd, Columbia, SC</span>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; MrKlauk</p>
+            </footer>
+        </div>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>

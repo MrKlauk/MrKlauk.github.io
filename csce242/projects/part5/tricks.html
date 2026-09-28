@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skate Columbia - Tricks</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <div id="logo">
+                    <div class="logo-line"><span class="gold">S</span>KATE</div>
+                    <div class="logo-line"><span class="gold">C</span>OLUMBIA</div>
+                </div>
+                <nav id="main-nav">
+                    <span id="menu-toggle">&#9660;</span>
+                    <ul id="nav-list">
+                        <li id="home-link"><a href="index.html">Home</a></li>
+                        <li id="spots-link"><a href="spots.html">Spots</a></li>
+                        <li id="shops-link"><a href="shops.html">Shops</a></li>
+                        <li id="tricks-link" class="active"><a href="tricks.html">Tricks</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="page-hero">
+                    <h1>Tricks</h1>
+                    <p>Learn how to perform various skateboarding tricks.</p>
+                </section>
+                <section id="card-page">
+                    <div id="filters">
+                        <button class="filter active">All</button>
+                        <button class="filter">Beginner</button>
+                        <button class="filter">Intermediate</button>
+                        <button class="filter">Advanced</button>
+                    </div>
+                    <div id="card-grid">
+                        <a href="trick.html" class="card">
+                            <img src="images/ollie.jpg" alt="Ollie" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Ollie</h3>
+                                    <span class="tag green">Beginner</span>
+                                </div>
+                                <span class="tag blue">Flatground</span>
+                                <p>The foundation of all skateboarding. Pop the tail, slide your front foot up, and level the board in the air.</p>
+                            </div>
+                        </a>
+                        <a href="trick.html" class="card">
+                            <img src="images/kickflip.jpg" alt="Kickflip" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Kickflip</h3>
+                                    <span class="tag orange">Intermediate</span>
+                                </div>
+                                <span class="tag blue">Flatground</span>
+                                <p>Ollie with a flick off the heel-side toe to spin the board 360° on its long axis. The first real milestone.</p>
+                            </div>
+                        </a>
+                        <a href="trick.html" class="card">
+                            <img src="images/heelflip.avif" alt="Heelflip" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Heelflip</h3>
+                                    <span class="tag orange">Intermediate</span>
+                                </div>
+                                <span class="tag blue">Flatground</span>
+                                <p>Like a kickflip but the board flips toe-side. Flick off the heel edge with your front foot going outward.</p>
+                            </div>
+                        </a>
+                        <a href="trick.html" class="card">
+                            <img src="images/50-50.jpg" alt="50-50 Grind" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>50-50 Grind</h3>
+                                    <span class="tag green">Beginner</span>
+                                </div>
+                                <span class="tag orange">Rail/Ledge</span>
+                                <p>Lock both trucks onto a ledge or rail and slide. The entry-level grind — learn this before any other.</p>
+                            </div>
+                        </a>
+                        <a href="trick.html" class="card">
+                            <img src="images/nosegrind.jpg" alt="Nose Grind" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Nose Grind</h3>
+                                    <span class="tag red">Advanced</span>
+                                </div>
+                                <span class="tag orange">Rail/Ledge</span>
+                                <p>Balance the front truck only on the obstacle with the tail kicked up. Requires precise weight distribution.</p>
+                            </div>
+                        </a>
+                        <a href="trick.html" class="card">
+                            <img src="images/tre.jpg" alt="Tre Flip" />
+                            <div class="card-body">
+                                <div class="card-head">
+                                    <h3>Tre Flip</h3>
+                                    <span class="tag red">Advanced</span>
+                                </div>
+                                <span class="tag blue">Flatground</span>
+                                <p>Pop a kickflip while scooping the tail to spin the board 360° backside. Also called a 360 flip.</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; MrKlauk</p>
+            </footer>
+        </div>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
