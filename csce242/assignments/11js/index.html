@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 11</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h3>Ranger Klauk</h3>
+                <h1>Assignment 11</h1>
+                <h2>Vacation Destinations</h2>
+            </header>
+            <main>
+                <div id="gallery"></div>
+            </main>
+            <footer>
+                <p>&copy; MrKlauk</p>
+            </footer>
+        </div>
+
+        <div id="vacation-modal" class="w3-modal">
+            <div class="w3-modal-content w3-card-4 modal-box">
+                <header class="w3-container modal-header">
+                    <span onclick="closeModal()" class="w3-button w3-display-topright">&times;</span>
+                    <h2 id="modal-title"></h2>
+                </header>
+                <div class="w3-container modal-body">
+                    <div class="modal-flex">
+                        <div class="modal-map">
+                            <iframe id="modal-map" src="" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-info">
+                            <p><span class="label">Name:</span> <span id="modal-name"></span></p>
+                            <p><span class="label">Type:</span> <span id="modal-type"></span></p>
+                            <p><span class="label">Description:</span> <span id="modal-description"></span></p>
+                            <p><span class="label">Things To Do:</span> <span id="modal-things"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
