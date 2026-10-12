@@ -1,0 +1,282 @@
+[
+  {
+    "_id": 1,
+    "category": "spot",
+    "title": "Owens Field",
+    "img_name": "owens-field2.jpg",
+    "tag1": "Park",
+    "tag2": "Advanced",
+    "description": "Large concrete park with bowls, ledges, and a street section. Well-maintained and popular with locals.",
+    "rating": 4,
+    "location": "1351 Jim Hamilton Blvd, Columbia, SC 29205",
+    "tips": [
+      "Best sessions are late at night, there are plenty of people and it's well lit.",
+      "Watch your stuff late at night, little kids tend to steal stuff.",
+      "The bowls are intense, be confident before dropping in.",
+      "After the park gate closes, you can park in the tennis lot and walk over."
+    ]
+  },
+  {
+    "_id": 2,
+    "category": "spot",
+    "title": "Irmo Skate Park",
+    "img_name": "irmo-skate-park.jpg",
+    "tag1": "Park",
+    "tag2": "Intermediate",
+    "description": "Concrete park in Rawls Creek with a flow bowl, quarter pipes, and street features. Hosts Nike SB events.",
+    "rating": 4,
+    "location": "1113 Friarsgate Blvd, Irmo, SC 29063",
+    "tips": [
+      "Mornings are the best time to have the bowl to yourself.",
+      "The flat rail gets slick after rain, give it a day to dry.",
+      "Parking is free and right next to the park.",
+      "Bring water, there's no shade over the street section."
+    ]
+  },
+  {
+    "_id": 3,
+    "category": "spot",
+    "title": "Russell House",
+    "img_name": "russell.jpg",
+    "tag1": "Street",
+    "tag2": "Intermediate",
+    "description": "Long marble banks alongside the university buildings. Great for carving and manual lines.",
+    "rating": 4,
+    "location": "Greene St, Columbia, SC",
+    "tips": [
+      "Weekend mornings are dead, best time to skate.",
+      "Don't skate during football game days, way too crowded.",
+      "Keep an eye out for campus security, they'll ask you to leave during events.",
+      "Combine with a session at Close Hipp since they're a few blocks apart."
+    ]
+  },
+  {
+    "_id": 4,
+    "category": "spot",
+    "title": "Close Hipp",
+    "img_name": "close-hipp.jpg",
+    "tag1": "Street",
+    "tag2": "Beginner",
+    "description": "Smoothest concrete in the city in the underground parking lot. Lots of manual pads.",
+    "rating": 5,
+    "location": "Harden St & Devine St, Columbia, SC",
+    "tips": [
+      "Go after 6pm or on weekends when the garage is mostly empty.",
+      "Watch for cars coming around the corners, they can't see you well.",
+      "It's good for skating after it rains, but some oil pots can be slick.",
+      "Bring water, it stays really hot down there."
+    ]
+  },
+  {
+    "_id": 5,
+    "category": "spot",
+    "title": "T-Coop Fountain",
+    "img_name": "t-coop.jpg",
+    "tag1": "Street",
+    "tag2": "Advanced",
+    "description": "Massive 8-stair gap with rough landing. Not for the faint of heart.",
+    "rating": 3,
+    "location": "Bull St, Columbia, SC",
+    "tips": [
+      "Bring a broom, the run-up is covered in debris.",
+      "Landing is rough, softer wheels or bigger wheels help.",
+      "Skate it early morning to avoid traffic on Bull St.",
+      "Not a solo spot, always bring a friend."
+    ]
+  },
+  {
+    "_id": 6,
+    "category": "spot",
+    "title": "Gambrell",
+    "img_name": "gambrell.jpg",
+    "tag1": "Street",
+    "tag2": "All Levels",
+    "description": "Large variety of stair sets, large area of flatground.",
+    "rating": 4,
+    "location": "5765 Bush River Rd, Columbia, SC",
+    "tips": [
+      "Great warm-up spot before heading to Owens Field.",
+      "The biggest stair set is on the far side, scope it first.",
+      "Plenty of parking.",
+      "Lights stay on late, night sessions are solid."
+    ]
+  },
+  {
+    "_id": 7,
+    "category": "shop",
+    "title": "Bluetile Skate Shop",
+    "img_name": "bluetile2.webp",
+    "tag1": "Decks, hardware",
+    "tag2": "Locals' pick",
+    "description": "Columbia's original core skate shop. Riders on the team, deep deck selection, and genuine community energy.",
+    "address": "2716 Devine St, Columbia, SC",
+    "hours": "Mon-Sat 11am-7pm",
+    "brands": ["Real", "Anti-Hero", "Baker", "Heroin", "Spitfire", "Independent"],
+    "services": ["Frequent competitions", "Wheel swaps", "Nike SB Releases", "Board builds"]
+  },
+  {
+    "_id": 8,
+    "category": "shop",
+    "title": "Salty's Board Shop",
+    "img_name": "saltys.jpg",
+    "tag1": "Cruisers, pads",
+    "tag2": "Beginners",
+    "description": "Great shop for buying complete, good quality cruiser boards. Also a great shop to buy pads.",
+    "address": "3408 Forest Dr, Columbia, SC",
+    "hours": "Mon-Fri 10am-8pm, Sat 10am-6pm",
+    "brands": ["Landyachtz", "Sector 9", "Globe", "Triple 8", "187 Killer Pads"],
+    "services": ["Complete builds", "Bearing cleaning", "Grip tape", "Special orders"]
+  },
+  {
+    "_id": 9,
+    "category": "shop",
+    "title": "Grindhouse Skate Shop",
+    "img_name": "grindhouse.png",
+    "tag1": "Apparel, art decks",
+    "tag2": "DIY vibe",
+    "description": "A small business recently established skate shop ran by locals. Has a large supply of used clothes and boards.",
+    "address": "1820 Main St, Columbia, SC",
+    "hours": "Tue-Sun 12pm-7pm",
+    "brands": ["Local art decks", "Used completes", "Thrifted apparel", "Independent trucks"],
+    "services": ["Used board trade-ins", "Grip jobs", "Custom art decks", "Consignment"]
+  },
+  {
+    "_id": 10,
+    "category": "trick",
+    "title": "Ollie",
+    "img_name": "ollie.jpg",
+    "tag1": "Flatground",
+    "tag2": "Beginner",
+    "description": "The foundation of all skateboarding. Pop the tail, slide your front foot up, and level the board in the air.",
+    "prerequisites": ["Basic riding and pushing", "Comfortable stopping", "Confident balance on the board"],
+    "mistakes": [
+      "Slamming the tail in the ground, it's more like dribbling a basketball, not stomping the tail.",
+      "Jumping too early before the tail hits the ground.",
+      "Front foot not dragging high enough, resulting in a rocketed ollie.",
+      "Landing with feet too close together, aim for shoulder-width."
+    ],
+    "steps": [
+      "Place the ball of your foot in the middle of the tail, with your weight mostly on the front foot. Front foot sits behind the front bolts.",
+      "Bend your knees and jump, snapping the tail down hard against the ground at the end of it.",
+      "As the tail hits, drag your front foot up toward the nose, leveling the board.",
+      "Suck your knees up to your chest like Spider-Man to give the board room to rise beneath you.",
+      "Land with both feet over the bolts and absorb the impact by bending your knees."
+    ]
+  },
+  {
+    "_id": 11,
+    "category": "trick",
+    "title": "Kickflip",
+    "img_name": "kickflip.jpg",
+    "tag1": "Flatground",
+    "tag2": "Intermediate",
+    "description": "Ollie with a flick off the heel-side toe to spin the board 360 degrees on its long axis. The first real milestone.",
+    "prerequisites": ["Extremely consistent ollie", "Extreme board control", "Extremely comfortable flick"],
+    "mistakes": [
+      "Kicking down instead of out, which sends the board into the ground.",
+      "Flicking too early before the pop is complete.",
+      "Keeping your back foot on the board, it has to get out of the way.",
+      "Not jumping high enough, the board needs room to flip."
+    ],
+    "steps": [
+      "Set up like an ollie, but with your front foot angled slightly toward the heel edge and closer to the front bolts.",
+      "Pop the tail, wait a moment, then flick your front foot outward off the heel-side edge of the nose.",
+      "Pull your back foot up and away so the board has room to rotate.",
+      "Watch the board spin and catch it with both feet as it comes around.",
+      "Land with your feet over the bolts and roll away."
+    ]
+  },
+  {
+    "_id": 12,
+    "category": "trick",
+    "title": "Heelflip",
+    "img_name": "heelflip.avif",
+    "tag1": "Flatground",
+    "tag2": "Intermediate",
+    "description": "Like a kickflip but the board flips toe-side. Flick off the heel edge with your front foot going outward.",
+    "prerequisites": ["Consistent ollie", "Some flip trick experience", "Comfortable riding"],
+    "mistakes": [
+      "Flicking straight down instead of out off the toe-side edge.",
+      "Front foot placed too far toward the toe edge before popping.",
+      "Popping too late and the front foot flicks into the ground.",
+      "Ensure your back foot is on the balls of your feet, near the heelside of the tail."
+    ],
+    "steps": [
+      "Set up like an ollie with your front foot's toe hanging slightly off the toe-side edge.",
+      "Pop the tail and flick your front foot outward, using your heel to catch the edge.",
+      "Keep your back foot up and away from the board as it flips.",
+      "Catch the board with both feet when it completes the rotation.",
+      "Absorb the landing with your knees and roll away."
+    ]
+  },
+  {
+    "_id": 13,
+    "category": "trick",
+    "title": "50-50 Grind",
+    "img_name": "50-50.jpg",
+    "tag1": "Rail/Ledge",
+    "tag2": "Beginner",
+    "description": "Lock both trucks onto a ledge or rail and slide. The entry-level grind, learn this before any other.",
+    "prerequisites": ["Consistent rolling ollie", "Comfortable approaching a ledge", "Good balance at speed"],
+    "mistakes": [
+      "Approaching too parallel to the ledge, come in at a slight angle.",
+      "Leaning too far forward or backward on the ledge and slipping out.",
+      "Not committing to the ollie and catching the ledge with your wheels.",
+      "Forgetting to pop off at the end and just rolling off the edge."
+    ],
+    "steps": [
+      "Approach the ledge or rail at a slight angle, roughly 30 degrees.",
+      "Pop a small ollie and aim to land both trucks on top of the obstacle.",
+      "Keep your weight centered and your knees slightly bent to balance.",
+      "Slide until you're ready to come off.",
+      "Pop a small ollie off the end or just roll off the side."
+    ]
+  },
+  {
+    "_id": 14,
+    "category": "trick",
+    "title": "Nose Grind",
+    "img_name": "nosegrind.jpg",
+    "tag1": "Rail/Ledge",
+    "tag2": "Advanced",
+    "description": "Balance the front truck only on the obstacle with the tail kicked up. Requires precise weight distribution.",
+    "prerequisites": ["Consistent 50-50 grind", "Strong front truck balance", "Comfortable popping onto ledges"],
+    "mistakes": [
+      "Shifting your weight too far forward and falling over the ledge.",
+      "Not keeping your back foot ready to catch the tail on the way out.",
+      "Approaching too straight on, which makes locking in harder.",
+      "Looking down at your feet instead of ahead at the end of the ledge."
+    ],
+    "steps": [
+      "Approach the ledge at a slight angle with your weight centered.",
+      "Pop an ollie and aim your front truck only onto the ledge.",
+      "Keep your back foot hovering over the tail and your front knee bent.",
+      "Hold your weight directly over the front truck to stay balanced.",
+      "When you're ready, shift your weight back and pop off the ledge."
+    ]
+  },
+  {
+    "_id": 15,
+    "category": "trick",
+    "title": "Tre Flip",
+    "img_name": "tre.jpg",
+    "tag1": "Flatground",
+    "tag2": "Advanced",
+    "description": "Pop a kickflip while scooping the tail to spin the board 360 degrees backside. Also called a 360 flip.",
+    "prerequisites": ["Consistent kickflip", "Consistent backside 360 shove-it", "Strong pop and jump height"],
+    "mistakes": [
+      "Scooping the tail without popping, which kills the height.",
+      "Flicking the front foot too hard and the board over-rotates the flip.",
+      "Not scooping hard enough with the back foot, so the spin doesn't happen.",
+      "Jumping straight up instead of slightly forward, the board moves."
+    ],
+    "steps": [
+      "Set up with your back foot on the tail and your front foot toward the front bolts, toes angled slightly heel-side.",
+      "Ensure that your weight is so far back on the board that if you shifted any further back, you'd enter a manual.",
+      "Pop the tail hard and scoop it backside with your back foot to start the 360 rotation.",
+      "As the board pops, flick your front foot off the heel-side edge to start the flip.",
+      "Keep your knees high and watch the board rotate and flip beneath you.",
+      "Catch the board with both feet and absorb the landing."
+    ]
+  }
+]
