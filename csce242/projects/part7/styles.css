@@ -10,7 +10,6 @@
     --line: #2a2a2a;
     --card: #242424;
     --card-line: #333333;
-    --filter-fg: #aaaaaa;
     --filter-line: #444444;
     --red: #c0392b;
     --green: #27ae60;
@@ -129,14 +128,6 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 32px;
-}
-
-#intro::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,0.4) 100%);
-    pointer-events: none;
 }
 
 #intro h1 {
@@ -338,86 +329,7 @@ header {
     color: var(--green);
 }
 
-/* Detail Pages (Spot / Shop / Trick) */
-#detail-hero {
-    position: relative;
-    height: 384px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 24px 40px;
-}
-
-#detail-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(26,26,26,0.95) 100%);
-}
-
-#detail-hero > * {
-    position: relative;
-}
-
-.hero-tags {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 12px;
-}
-
-#detail-title {
-    font-family: var(--heading);
-    font-weight: 700;
-    font-size: clamp(2rem, 4vw, 3rem);
-    letter-spacing: 0.04em;
-}
-
-#detail-body {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 32px 40px;
-    width: 100%;
-}
-
-#detail-body .back {
-    display: inline-block;
-    color: var(--dim);
-    font-family: var(--heading);
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-
-#detail-rating {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding-top: 24px;
-    color: var(--dim);
-    font-size: 13px;
-}
-
-#detail-rating .stars {
-    color: var(--gold);
-    font-size: 16px;
-}
-
-#detail-description {
-    padding-top: 24px;
-    color: var(--gray);
-    font-size: 16px;
-    line-height: 1.75;
-}
-
-#detail-extras {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    padding-top: 32px;
-}
-
+/* Extras Cards (used inside the modal) */
 .extras-card,
 #detail-steps {
     background: var(--card);
@@ -513,26 +425,6 @@ header {
     flex-shrink: 0;
 }
 
-#detail-next {
-    border-top: 1px solid var(--card-line);
-    margin-top: 32px;
-    padding-top: 24px;
-    text-align: right;
-}
-
-#detail-next a {
-    color: var(--dim);
-    font-family: var(--heading);
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-
-#detail-body .back:hover,
-#detail-next a:hover {
-    color: var(--gold);
-}
-
 /* Footer */
 footer {
     background: var(--darker);
@@ -544,53 +436,6 @@ footer {
 footer p {
     color: var(--dim);
     font-size: 14px;
-}
-
-/* Lightbox */
-#lightbox {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 40px;
-}
-
-#lightbox.open {
-    display: flex;
-}
-
-#lightbox-img {
-    max-width: 90%;
-    max-height: 80vh;
-    border: 2px solid var(--gold);
-    border-radius: 4px;
-}
-
-#lightbox-caption {
-    margin-top: 16px;
-    color: var(--gold);
-    font-family: var(--heading);
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
-
-#lightbox-close {
-    position: absolute;
-    top: 24px;
-    right: 32px;
-    color: var(--white);
-    font-size: 36px;
-    cursor: pointer;
-    line-height: 1;
-}
-
-#lightbox-close:hover {
-    color: var(--gold);
 }
 
 /* Map IFrame on Homepage */
@@ -750,6 +595,12 @@ footer p {
     position: relative;
 }
 
+.hero-tags {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
 .modal-title {
     font-family: var(--heading);
     font-weight: 700;
@@ -850,9 +701,6 @@ footer p {
     #card-page { padding: 24px 16px 40px; }
     #card-grid { grid-template-columns: 1fr; }
 
-    #detail-hero { padding: 16px; }
-    #detail-body { padding: 24px 16px; }
-    #detail-extras { grid-template-columns: 1fr; }
     #detail-steps { padding: 16px; }
 
     .modal-hero { padding: 16px; height: 220px; }
